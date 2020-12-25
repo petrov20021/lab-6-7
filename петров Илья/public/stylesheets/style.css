@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Calibri Light";
+}
+div{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ebebeb;
+}
+input{
+  width: 80px;
+  height: 30px;
+  background: seagreen;
+  color: aliceblue;
+  border: seagreen;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+#change{
+  background: steelblue;
+  width: 70px;
+}
+#delete{
+  width: 70px;
+  background: crimson;
+}
+input:hover{
+  opacity: 0.9;
+}
+h2{
+  margin-right: auto;
+  margin-left: 10px;
+}
+table{
+  width: 100%;
+  text-align: center;
+}
+
+th , td{
+  height: 40px;
+  border-bottom: 1px solid #ebebeb;
+}
+tr:hover{
+  background: rgba(192, 192,192, 0.2);
+}
